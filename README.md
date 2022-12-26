@@ -27,8 +27,8 @@
  <tbody>
   <tr><td>ASIGNATUA:</td><td colspan="5">Programacion Web 1 </td></tr>
   <tr><td>TÍTULO DE LA PRACTICA:</td><td colspan="4">Proyecto final (III Entrega) <td></tr>
-  <tr><td>NÚMERO DE PRÁCTICA:</td><td>Practica de Laboratorio 12</td><td>AÑO LECTIVO:</td><td>2022-B</td><td>NRO. SEMESTRE:</td><td>II</td></tr>
-  <tr><td>FECHA DE PRESENTACIÓN:</td><td> 21-Dic-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">11:30 p.m.</td></tr>
+  <tr><td>NÚMERO DE PRÁCTICA:</td><td>Practica de Laboratorio 14</td><td>AÑO LECTIVO:</td><td>2022-B</td><td>NRO. SEMESTRE:</td><td>II</td></tr>
+  <tr><td>FECHA DE PRESENTACIÓN:</td><td> 26-Dic-2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">6:30 p.m.</td></tr>
 
 
   <tr><td>INTEGRANTES:</td><td colspan="3">Aguilar Tancayo Edwin Francisco. <br>Cáceres Apaza Jherald Huren.<br>Contreras Huamani Paul Michaell.
