@@ -47,36 +47,28 @@
     <h1>  Inicio  </h1> 
       <p> Pagina de Inicio. </p>
           <img src="img/fondo.png" width="800" height="700" />
-    <h1>  cgi-bin  </h1>
-      <ol> 
-          <li> <h2> Article.pl </h2> </li>
-              <p> Te mostrará la lista de todos los artículos ingresados por new.html, en este podremos eliminar y editar los articulos, <br> tambien ver la traducción markdown a HTML </p>
-                        <img src="img/list.png" width="700" height="300" />
-          <li> <h2> Delete.pl </h2> </li>
-              <p> Se representa en un botón “X” que borrará el artículo de la lista y de la base de datos </p>
-                        <img src="img/delete.png">
-          <li> <h2> Edit.pl </h2> </li>
-              <p> Se representa en un botón “E” que en un formato similar al new.html, te permitirá modificar solo el texto </p>
-                        <img src="img/edit.png">
-          <li> <h2> View.pl </h2> </li>
-              <p> Traduce el markdown a lenguaje HTML </p>
-                        <img src="img/view.png">
-          <li> <h2> New.pl </h2> </li>
-              <p> Recibe los datos del formulario de new.html y los usará para crear la página HTML </p>
-                        <img src="img/newpl.png" width="700" height="300" />
-           <li> <h2> Login.pl </h2> </li>
-              <p> Recibe los datos del formulario de new.html y los usará para crear la página HTML </p>
-                        <img src="img/newpl.png" width="700" height="300" />   
-          <li> <h2> Register.pl </h2> </li>
-              <p> Recibe los datos del formulario de new.html y los usará para crear la página HTML </p>
-                        <img src="img/newpl.png" width="700" height="300" />
-          <li> <h2> Update.pl </h2> </li>
-              <p> Recibe los datos del formulario de new.html y los usará para crear la página HTML </p>
-                        <img src="img/newpl.png" width="700" height="300" />         
-      </ol>  
+    <h1>  Login  </h1> 
+      <p> Pagina de Ingresar. </p>
+          <img src="img/fondo.png" width="800" height="700" />
+    <h1>  Register  </h1> 
+      <p> Pagina de Registro. </p>
+          <img src="img/fondo.png" width="800" height="700" />
+    <h1>  After Login  </h1> 
+      <p> Pagina del usuario creado. </p>
+          <img src="img/fondo.png" width="800" height="700" />
+    <h1>  List  </h1> 
+      <p> Lista de paginas. </p>
+          <img src="img/fondo.png" width="800" height="700" />   
+    <h1>  New  </h1> 
+      <p> Nueva pagina. </p>
+          <img src="img/fondo.png" width="800" height="700" /> 
+    <h1>  Editor de contenido  </h1> 
+      <p> Modificar contenido de las paginas. </p>
+          <img src="img/fondo.png" width="800" height="700" />                                     
   </ul>
-  <tr><td><strong>II. CONCLUSIONES:</strong><br>- Es posible cear un recurso web de creacion de paginas con uso de expresiones regurares en perl,<br>
-     HTML y bases de datos<br> </td></tr>
+  <tr><td><strong>II. CONCLUSIONES:</strong><br>- Podemos concluir que el desarrollo 
+  de paginas web en el front y back end, para el uso de HTML. CSS, JavaScript, los CGIs,
+  Perl, y el uso de las bases de datos, nos ayudan a completar funcionalidades a paginas como la creada.<br> </td></tr>
  </tbody>
 </table>
 <hr>
