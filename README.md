@@ -46,25 +46,25 @@
   <ul>
     <h1>  Inicio  </h1> 
       <p> Pagina de Inicio. </p>
-          <img src="img/fondo.png" width="800" height="700" />
+          <img src="img/inicio.png" />
     <h1>  Login  </h1> 
       <p> Pagina de Ingresar. </p>
-          <img src="img/fondo.png" width="800" height="700" />
+          <img src="img/login.png" />
     <h1>  Register  </h1> 
       <p> Pagina de Registro. </p>
-          <img src="img/fondo.png" width="800" height="700" />
+          <img src="img/register.png"/>
     <h1>  After Login  </h1> 
       <p> Pagina del usuario creado. </p>
-          <img src="img/fondo.png" width="800" height="700" />
+          <img src="img/afterlogin.png" />
     <h1>  List  </h1> 
       <p> Lista de paginas. </p>
-          <img src="img/fondo.png" width="800" height="700" />   
+          <img src="img/list.png" />   
     <h1>  New  </h1> 
       <p> Nueva pagina. </p>
-          <img src="img/fondo.png" width="800" height="700" /> 
+          <img src="img/new.png" /> 
     <h1>  Editor de contenido  </h1> 
       <p> Modificar contenido de las paginas. </p>
-          <img src="img/fondo.png" width="800" height="700" />                                     
+          <img src="img/edit.png" />                                     
   </ul>
   <tr><td><strong>II. CONCLUSIONES:</strong><br>- Podemos concluir que el desarrollo 
   de paginas web en el front y back end, para el uso de HTML. CSS, JavaScript, los CGIs,
