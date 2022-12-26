@@ -7,13 +7,10 @@ function showLogin(){
   let html = `<link rel="stylesheet" type="text/css" href="css/myStyle.css">
   <h1>Login</h1>
   <div class="form">
-    <h2 style="color:white;">Usuario:</h2> 
-    <input type='text' id='user' name='user'>
+    <input placeholder="Usuario..." type='text' id='user' name='user'>
+    <input placeholder="Contraseña..." type='password' id='password' name='password'>
     <br>
-    <h2 style="color:white;">Contraseña:</h2>
-    <input type='password' id='password' name='password'>
-    <br><br>
-    <button class="button" type='submit' value='Ingresar' onclick="doLogin()">Ingresar</button>
+    <input type="submit" value="Ingresar" onclick="doLogin()">
   </div>
   <div class="card" id="error">
   </div>`;
@@ -90,19 +87,11 @@ function showCreateAccount(){
   let html = `<link rel="stylesheet" type="text/css" href="css/myStyle.css">
   <h1>Registro</h1>
   <div class="form">
-    <h2 style="color:white;">Usuario:</h2>
-    <input type='text' id='user' name='user'>
-    <br>
-    <h2 style="color:white;">Contraseña:</h2>
-    <input type='password' id='password' name='password'>
-    <br>
-    <h2 style="color:white;">Primer nombre:</h2>
-    <input type='text' id='first' name='first'>
-    <br>
-    <h2 style="color:white;">Apellido:</h2>
-    <input type='text' id='last' name='last'>
-    <br><br>
-    <button class="button" type='submit' value='Registrarse' onclick="doCreateAccount()">Registrarse</button>
+    <input placeholder="Usuario..." type='text' id='user' name='user'>
+    <input placeholder="Contraseña..." type='password' id='password' name='password'>
+    <input placeholder="Nombre..." type='text' id='first' name='first'>
+    <input placeholder="Apellido..." type='text' id='last' name='last'>
+    <input type='submit' value='Registrarse' onclick="doCreateAccount()">
   </div>
   <div class="card" id="error">
   </div>`;
@@ -201,16 +190,14 @@ function showNew(){
   let html = `<link rel="stylesheet" type="text/css" href="css/myStyle.css">
   <h1>Nueva página</h1>
   <div class="form">
-    <h2 style="color:white;">Usuario: `+userKey+`</h2>
+    <h2>Usuario: `+userKey+`</h2>
     <br>
-    <h2 style="color:white;" for="title" >Título:</h2>
-    <input placeholder="Escribe el titulo..." type='text' id='title' name='title'>
+    <input placeholder="Escribe el título..." type='text' id='title' name='title'>
     <br>
-    <h2 style="color:white;" for="text" >Texto:</h2>
-    <textarea placeholder="Escribe el texto" type='text' id='text' name='text' style="margin: 0px; width: 471px; height: 267px;"></textarea>
+    <textarea placeholder="Escribe el texto..." type='text' id='text' name='text' style="margin: 0px; max-width: 280px; width: 280px; min-height: 267px;"></textarea>
     <br><br>
-    <button class="button" type='submit' value='Crear' onclick="doNew()"style="font-size:15px;">Crear Página</button>
-    <button class="button" type='submit' value='Cancelar' onclick="doList()">Cancelar</button>
+    <input type='submit' value='Crear Página' onclick="doNew()"style="font-size:15px;">
+    <input type='submit' value='Cancelar' onclick="doList()">
   </div>
   <div class="card" id="error">
   </div>`;
@@ -345,15 +332,14 @@ function responseEdit(xml){
   let html = `<link rel="stylesheet" type="text/css" href="css/myStyle.css">
   <h1>Update</h1>
   <div class="form">
-    <h2 style="color:white;">Usuario: `+owner+`</h2>
+    <h2>Usuario: `+owner+`</h2>
     <br>
-    <h2 style="color:white;" >Título: `+title+`</h2>
+    <h2>Título: `+title+`</h2>
     <br>
-    <h2 style="color:white;" for="text" >Texto:</h2>
-    <textarea placeholder="Escribe el texto..." type='text' id='textUpdate' name='textUpdate' style="margin: 0px; width: 471px; height: 267px;">`+text+`</textarea>
+    <textarea placeholder="Escribe el texto..." type='text' id='textUpdate' name='textUpdate' style="margin: 0px; width: 280px; max-width:280px; min-height: 267px;">`+text+`</textarea>
     <br><br>
-    <button class="button" type='submit' value='Actualizar' onclick=doUpdate("`+title+`") style="font-size:15px;">Actualizar</button>
-    <button class="button" type='submit' value='Cancelar' onclick="doList()">Cancelar</button>
+    <input type='submit' value='Actualizar' onclick=doUpdate("`+title+`") style="font-size:15px;">
+    <input type='submit' value='Cancelar' onclick="doList()">
   </div>
   <div class="card" id="error">
   </div>`;

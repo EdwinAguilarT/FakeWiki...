@@ -56,8 +56,9 @@ if(defined($owner) and defined($title)){
       print "<p><code>$1</code></p>";
    }
   }
-}else{
-  print "<p></p>";
+} else{
+    print "<p></p>";
+  }
 }
 
 sub checkOwnerTitle{
