@@ -44,6 +44,9 @@
  <tbody>
   <tr><td><strong>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:</strong><br>
   <ul>
+    <h1>  Video  </h1> 
+         <p>Video de demostracion del proyecto</p>
+             <h4>https://drive.google.com/file/d/15gzhtDVuYtSsirTpFJypyPI9D9xLyRkN/view?usp=share_link</h4>
     <h1>  Inicio  </h1> 
       <p> Pagina de Inicio. </p>
           <img src="img/inicio.png" />
